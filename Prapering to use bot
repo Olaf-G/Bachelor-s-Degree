@@ -1,0 +1,8 @@
+1. StarCraft II must be installed on PC, currently starter version of this title is free to play on ActivisionBLizzard 
+launcher battle.net.
+2. Install package python-sc2 made by Dentosal, using ""pip install sc2"" command
+3. Download MapPacks from here https://github.com/Blizzard/s2client-proto#map-packs. Currently bot is set to play on AbyssalReefLE from Ladder2017Season1
+MapPack but can be launched on any other map
+4. Extract MapPack to the StartCraftII Maps directory in main folder (if there is no such directory create one)
+5. Go to the installaction directory for python-sc2 package and edit ""paths.py"" file and change BASEDIR for windows to the actual location
+of StarCraftII
